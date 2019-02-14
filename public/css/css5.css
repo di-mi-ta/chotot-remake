@@ -1,0 +1,86 @@
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ddd;
+    background-color: white;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 12px 13px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    width: 100%;
+}
+
+span.vitri-thoigian button {
+    background-color: inherit;
+    border: none;
+}
+
+button#sdDV:hover {
+    background-color: #6495ED;
+    border: 1px solid #6495FF;
+    border-radius: 3px;
+    color: white;
+}
+
+button#xoaTD:hover {
+    background-color: Tomato;
+    border: 1px solid Tomato;
+    border-radius: 3px;
+    color: white;
+}
+
+div#avatar {
+    display: table;
+    padding-left: 11px;
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+div#img-div {
+    max-width: 9%;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+div#name-div {
+    line-height: 30px;
+    padding-top: 12px;
+}
+
+div#name-div a:link {
+    text-decoration: none;
+    color: DodgerBlue;
+    cursor: pointer;
+}
+
+div#name-div a:visited {
+    text-decoration: none;
+    color: DodgerBlue;
+    cursor: pointer;
+}
+
+div#name-div a:hover {
+    text-decoration: none;
+    color: Tomato;
+    cursor: pointer;
+}

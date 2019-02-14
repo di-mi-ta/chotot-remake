@@ -1,0 +1,18 @@
+button#sdDV:hover {
+    background-color: #6495ED;
+    border: 1px solid #6495FF;
+    color: white;
+}
+
+button#xoaTD:hover {
+    background-color: Tomato;
+    border: 1px solid #6495FF;
+    color: white;
+}
+
+div.no-item {
+	border: 1px solid blue;
+	background-color: red;
+	border-radius: 3px;
+	text-align: center;
+}

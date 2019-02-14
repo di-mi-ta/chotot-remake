@@ -1,0 +1,20 @@
+/* Clear floats after the columns */
+.tra-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Style the buttons */
+.luan-btn {
+    border: none;
+    outline: none;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.luan-btn:hover {
+    background-color: #ddd;
+}
+
+
+

@@ -1,0 +1,10 @@
+div.super-container {
+	display: flex;
+	width: 100%;
+}
+
+div.best-column {
+	flex: 70%;
+}
+
+

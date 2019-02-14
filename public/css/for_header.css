@@ -1,0 +1,205 @@
+div.label-1 {
+    width: 100%;
+    color: black;
+    outline: none;
+    outline-bottom: 1px solid gray;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    border: none;
+}
+
+label#label-01 {
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+
+div.danh-muc-dang-tin {
+    max-width: 60%;
+    margin: auto;
+    margin-top: 1vw;
+}
+
+button.item-danhmuc:first-child {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+button.item-danhmuc {
+    position: relative;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 14px;
+    display: block;
+    line-height: 30px;
+    width: 100%;
+}
+
+button.continue {
+    background-color: #feb70b;
+    border: 1px solid #fe9900;
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+span.vertical-align-middle {
+    display: table-cell;
+    padding-left: 5px;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+span.vertical-align-middle-1 {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+    float: left;
+    padding: 10px 2px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+div.pull-right {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    float: right!important;
+    display: block;
+    cursor: pointer;
+    line-height: 30px;
+}
+
+div.pull-right-1 {
+    float: left;
+    display: block;
+    vertical-align: center;
+    cursor: pointer;
+    color: white;
+    padding: 4px 13px;
+    line-height: 36px;
+}
+
+div.check-box-item {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+div.row-check-box {
+    width: 100%;
+}
+
+div.column-check-box {
+    float: left;
+}
+
+div.row-check-box:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/***********************/
+span.cont {
+    margin-left: 9px;
+    line-height: 25px;
+}
+
+.label-container {
+    position: relative;
+    padding-left: 1.5vw;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+    cursor: pointer;
+    font-size: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.label-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.label-container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.label-container input:checked ~ .checkmark {
+    background-color: #ffba00;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.label-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.label-container .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+/**/
+div.luan-alert {
+    border: 0.4px solid #bce8f1;
+    background-color: #d9edf7;
+    border-radius: 4px;
+    color: #31708f;
+    margin-bottom: 100px;
+}
+
+div.luan-row {
+    width: 100%;
+}
+
+div.luan-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div.col-xs-12 {
+    float: left;
+    width: 50%;
+}
+
+div.col-xs-12 div {
+    padding: 12px;
+}
